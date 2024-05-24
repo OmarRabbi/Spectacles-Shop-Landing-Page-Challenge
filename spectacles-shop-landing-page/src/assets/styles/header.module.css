@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #383838;
+    & .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & .menuItem{
+            padding: 1rem;
+        }
+    }
+    & .profile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & .profileItem{
+            padding: 0.4rem;
+        }
+    }
+}
